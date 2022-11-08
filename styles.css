@@ -1,0 +1,6 @@
+.header .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
