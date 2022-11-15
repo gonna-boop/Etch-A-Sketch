@@ -37,12 +37,18 @@
 }
 
 #gameBoard {
-    display: grid;
-    grid-template-columns: repeat(16, 25px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
     /* max-width: 400px;
     min-width: 400px;
     min-height: 400px;
     max-height: 400px; */
+}
+
+.gameBoard {
+    display: grid;
 }
 
 .main .first-color-class {
