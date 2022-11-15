@@ -27,6 +27,15 @@
     margin-bottom: 50px;
 }
 
+#boardBox {
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 2.5px 2.5px gray;
+}
+
 #gameBoard {
     display: grid;
     grid-template-columns: repeat(16, 25px);
